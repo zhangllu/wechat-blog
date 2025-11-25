@@ -1,0 +1,30 @@
+{
+  "name": "wechat-blog",
+  "version": "1.0.0",
+  "description": "微信公众号文章静态网站 - 部署在GitHub Pages",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "dev": "npx serve . -l 8080",
+    "build": "echo '静态网站无需构建'",
+    "test": "echo '运行基本检查...'",
+    "deploy": "echo '使用GitHub Actions自动部署'"
+  },
+  "keywords": [
+    "wechat",
+    "blog",
+    "static-site",
+    "github-pages",
+    "hexo"
+  ],
+  "author": "MiniMax Agent",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/您的用户名/wechat-blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/您的用户名/wechat-blog/issues"
+  },
+  "homepage": "https://您的用户名.github.io/wechat-blog"
+}
